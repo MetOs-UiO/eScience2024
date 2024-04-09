@@ -1,0 +1,23 @@
+name: "Pull Request Docs Check"
+on: [pull_request, workflow_dispatch]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+    - name: build
+      uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "docs/"
+              # Deploy
+      # https://github.com/peaceiris/actions-gh-pages
+    - name: Deploy
+       uses: peaceiris/actions-gh-pages@v3
+       if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
+       with:
+         publish_branch: gh-pages
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         publish_dir: _gh-pages/
+         force_orphan: true
