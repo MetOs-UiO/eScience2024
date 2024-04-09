@@ -56,7 +56,7 @@ jobs:
     # If a push and master, copy build to _gh-pages/ as the "master"
     # deployment.
     - name: Copy new build (master)
-      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+      if: ${{ ( github.event_name == 'push' || github.event_name == 'workflow_dispatch' ) && github.ref == 'refs/heads/master' }}
       run: |
         set -x
         # Delete everything under _gh-pages/ that is from the
@@ -68,7 +68,7 @@ jobs:
     # If a push and not on master, then copy the build to
     # _gh-pages/branch/$brname (transforming '/' into '--')
     - name: Copy new build (branch)
-      if: ${{ github.event_name == 'push' && github.ref != 'refs/heads/master' }}
+      if: ${{ github.event_name == 'workflow_dispatch' && github.ref != 'refs/heads/master' }}
       run: |
         set -x
         #brname=$(git rev-parse --abbrev-ref HEAD)
@@ -83,7 +83,7 @@ jobs:
       # https://github.com/peaceiris/actions-gh-pages
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.event_name == 'workflow_dispatch' }}
+      if: ${{ github.event_name == 'workflow_dispatch' || ( github.event_name == 'push' && github.ref == 'refs/heads/master' }}
       with:
         publish_branch: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
