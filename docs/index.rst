@@ -7,6 +7,9 @@ eScience 2024 cource
 .. toctree ::
    :maxdepth: 1
 
-   setup.md
+   feide
+   basics
+   data
+   git_integration
 
-   license.md
+   license
