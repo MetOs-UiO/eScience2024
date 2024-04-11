@@ -1,3 +1,11 @@
 sphinx-lesson
-myst_parser
 sphinx_book_theme
+myst_nb
+sphinx_copybutton
+sphinx_book_theme
+sphinx.ext.intersphinx
+sphinx.ext.autodoc
+sphinx.ext.viewcode
+sphinx_design
+
+

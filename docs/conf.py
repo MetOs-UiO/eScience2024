@@ -38,7 +38,14 @@ extensions = [
     # remove once sphinx_rtd_theme updated for contrast and accessibility:
     #"sphinx_rtd_theme_ext_color_contrast",
     #"sphinx_coderefinery_branding",
-    "myst_parser"
+    "myst_nb",
+    "sphinx_copybutton",
+    "sphinx_book_theme",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
+    "sphinx_design"
+
     
 ]
 
