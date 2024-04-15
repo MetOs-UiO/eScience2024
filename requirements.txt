@@ -1,6 +1,6 @@
+myst_nb
 sphinx-lesson
 sphinx_book_theme
-myst_nb
-sphinx_copybutton
 sphinx_book_theme
+sphinx_copybutton
 sphinx_design

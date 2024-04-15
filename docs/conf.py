@@ -12,8 +12,11 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
 
+# HTML context:
+from os.path import basename, dirname, realpath
+
+sys.path.insert(0, os.path.abspath("."))
 
 
 # -- Project information -----------------------------------------------------
@@ -24,7 +27,7 @@ author = "MetOs-UiO"
 github_user = "MetOs-UiO"
 github_repo_name = "eScience2024"  # auto-detected from dirname if blank
 github_version = "main"
-conf_py_path = "/docs/" # with leading and trailing slash
+conf_py_path = "/docs/"  # with leading and trailing slash
 
 # -- General configuration ---------------------------------------------------
 
@@ -34,9 +37,9 @@ conf_py_path = "/docs/" # with leading and trailing slash
 extensions = [
     # githubpages just adds a .nojekyll file
     "sphinx.ext.githubpages",
-    #"sphinx_lesson",
+    # "sphinx_lesson",
     # remove once sphinx_rtd_theme updated for contrast and accessibility:
-    #"sphinx_rtd_theme_ext_color_contrast",
+    # "sphinx_rtd_theme_ext_color_contrast",
     "sphinx.ext.graphviz",
     "myst_nb",
     "sphinx_copybutton",
@@ -45,9 +48,6 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
     "sphinx_design",
-    "sphinx_toolbox.pre_commit"
-
-
 ]
 
 # Settings for myst_nb:
@@ -56,7 +56,7 @@ extensions = [
 # jupyter_execute_notebooks = "auto"   # *only* execute if at least one output is missing.
 # jupyter_execute_notebooks = "force"
 # jupyter_execute_notebooks = "cache"
-nb_execution_mode = 'off'
+nb_execution_mode = "off"
 nitpicky = True
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
@@ -71,6 +71,7 @@ exclude_patterns = [
     ".DS_Store",
     "jupyter_execute",
     "*venv*",
+    "**.ipynb_checkpoints",
 ]
 
 
@@ -84,11 +85,8 @@ html_theme = "sphinx_book_theme"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['css']
-
-
-# HTML context:
-from os.path import basename, dirname, realpath
+html_static_path = ["css"]
+html_extra_path = ["css", "learning/notebooks"]
 
 html_context = {
     "display_github": True,
@@ -114,6 +112,7 @@ html_context = {
 #    #'matplotlib': ('https://matplotlib.org/', None),
 #    'seaborn': ('https://seaborn.pydata.org/', None),
 # }
+
 
 def setup(app):
     app.add_css_file("style.css")

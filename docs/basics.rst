@@ -3,10 +3,10 @@ Jupyterhub basic usage
 
 Logging into Jupyterhub
 -----------------------
-  - If you already have a FEIDE account, you should've receive an email with the invitation link to `eScience2024` group
+  - If you already have a FEIDE account, you should've receive an email with the invitation link to :code:`eScience2024` group
   - Follow the link in the email
-  - Accept the policies and agree to become a member of the `eScience2024` group
-  - Now go to [eScience2024 Jupyterhub](https://escience2024.craas1.sigma2.no)
+  - Accept the policies and agree to become a member of the :code:`eScience2024` group
+  - Now go to `eScience2024 Jupyterhub <https://escience2024.craas1.sigma2.no>`_
   - Log in with your Feide account
   - You should be able to see Jupyterhub within your browser
 
@@ -33,7 +33,7 @@ When your server is not running, the button "Stop My Server" does not appear and
 
 The JupyterLab Interface
 ------------------------
-By default, you will get the web-based user interface for Project Jupyter that is called [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
+By default, you will get the web-based user interface for Project Jupyter that is called `JupyterLab <https://jupyterlab.readthedocs.io/en/stable/>`_.
 
 Menu Bar
 --------
