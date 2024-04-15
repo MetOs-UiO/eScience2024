@@ -78,7 +78,7 @@ jobs:
         rm -rf   _gh-pages/branch/${brdir}
         rsync -a _build/dirhtml/ _gh-pages/branch/${brdir}
     # Go through each branch in _gh-pages/branch/, if it's not a
-    # ref, then delete it.          
+    # ref, then delete it.
     # Deploy
       # https://github.com/peaceiris/actions-gh-pages
     - name: Deploy

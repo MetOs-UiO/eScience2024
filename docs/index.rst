@@ -1,15 +1,15 @@
-eScience 2024 cource
+eScience 2024 course
 =========================
 
 .. Note ::
    tips
 
 .. toctree ::
-   :maxdepth: 1
+   :maxdepth: 2
 
    feide
    basics
    data
+   notebooks/index
    git_integration
-
    license

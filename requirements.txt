@@ -4,5 +4,3 @@ myst_nb
 sphinx_copybutton
 sphinx_book_theme
 sphinx_design
-
-

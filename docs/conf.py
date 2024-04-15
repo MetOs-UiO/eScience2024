@@ -37,16 +37,17 @@ extensions = [
     #"sphinx_lesson",
     # remove once sphinx_rtd_theme updated for contrast and accessibility:
     #"sphinx_rtd_theme_ext_color_contrast",
-    #"sphinx_coderefinery_branding",
+    "sphinx.ext.graphviz",
     "myst_nb",
     "sphinx_copybutton",
     "sphinx_book_theme",
     "sphinx.ext.intersphinx",
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
-    "sphinx_design"
+    "sphinx_design",
+    "sphinx_toolbox.pre_commit"
 
-    
+
 ]
 
 # Settings for myst_nb:
