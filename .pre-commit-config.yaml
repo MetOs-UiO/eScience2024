@@ -1,0 +1,51 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0  # Use the ref you want to point at
+    hooks:
+    - id: trailing-whitespace
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+    - id: check-executables-have-shebangs
+    - id: detect-private-key
+    - id: requirements-txt-fixer
+    - id: check-added-large-files
+      args: [--maxkb=500000]
+    - id: check-merge-conflict
+    - id: no-commit-to-branch
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        additional_dependencies:
+        - sphinx-toolbox==3.5.0
+        args:
+          - "--max-line-length=128"
+
+  - repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+      - id: black
+        args:
+          - --line-length=128
+      - id: black-jupyter
+  - repo: https://github.com/sphinx-contrib/sphinx-lint
+    rev: v0.9.1
+    hooks:
+      - id: sphinx-lint
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.10.0
+    hooks:
+    - id: python-no-eval
+    - id: rst-backticks
+    - id: rst-directive-colons
+    - id: rst-inline-touching-normal
+
+  # rstcheck - rst file checker
+  - repo: https://github.com/rstcheck/rstcheck
+    rev:  v6.2.0
+    hooks:
+      - id: rstcheck
+        additional_dependencies: [sphinx]
+        exclude: testing

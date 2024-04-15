@@ -1,5 +1,6 @@
-sphinx_rtd_theme
+myst_nb
 sphinx-lesson
-sphinx_rtd_theme_ext_color_contrast
-myst_parser
-https://github.com/coderefinery/sphinx-coderefinery-branding/archive/master.zip
+sphinx_book_theme
+sphinx_book_theme
+sphinx_copybutton
+sphinx_design
