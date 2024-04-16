@@ -1,38 +1,6 @@
-Jupyterhub basic usage
-======================
-
-Logging into Jupyterhub
------------------------
-  - If you already have a FEIDE account, you should've receive an email with the invitation link to :code:`eScience2024` group
-  - Follow the link in the email
-  - Accept the policies and agree to become a member of the :code:`eScience2024` group
-  - Now go to `eScience2024 Jupyterhub <https://escience2024.craas1.sigma2.no>`_
-  - Log in with your Feide account
-  - You should be able to see Jupyterhub within your browser
-
-
-
-Starting and stopping your server
----------------------------------
-
-Your Jupyterhub tab should have the following panels:
-
-
-To start/stop your server, click "**File** --> **Hub Control Panel**":
-
-When your server is not running, the button "Stop My Server" does not appear and you only see the button "My Server".
-
-- To stop your server, click on "Stop My Server"
-- To start your server, click on "My Server"
-
-.. Warning ::
-
-  Don't forget to "**Stop My Server**" after you are done to free resources
-
-
-
 The JupyterLab Interface
-------------------------
+========================
+
 By default, you will get the web-based user interface for Project Jupyter that is called `JupyterLab <https://jupyterlab.readthedocs.io/en/stable/>`_.
 
 Menu Bar
