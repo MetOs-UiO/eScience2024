@@ -4,3 +4,8 @@ sphinx_book_theme
 sphinx_book_theme
 sphinx_copybutton
 sphinx_design
+sphinxemoji
+sphinx-autobuild
+watchfiles
+sphinx-toolbox
+
