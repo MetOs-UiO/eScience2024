@@ -1,12 +1,12 @@
 eScience 2024 course
 =========================
 
-.. toctree ::
-   :maxdepth: 3
+.. toctree::
+   :maxdepth: 5
 
    feide
-   basics
-   data
+   basics/index
+   data/index
    learning/index
-   git_integration
+   git_integration/index
    license

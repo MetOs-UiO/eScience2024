@@ -10,4 +10,4 @@ it to the toctree.
    :caption: Notebook Examples
    :glob:
 
-   notebooks/cool_stuff
+   notebooks/*

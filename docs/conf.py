@@ -48,6 +48,14 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
     "sphinx_design",
+    "sphinx_tabs.tabs",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.extlinks",
+    "sphinx.ext.intersphinx",
+    "sphinxemoji.sphinxemoji",
+    "sphinx_toolbox.collapse",
+    "sphinx_toolbox.installation",
 ]
 
 # Settings for myst_nb:
