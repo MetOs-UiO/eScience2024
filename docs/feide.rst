@@ -16,7 +16,7 @@ If you do not have a Feide account follow these instructions:
   .. note::
      You might need to check your spam/junk folder
 
-  - Click on the link ithe email and proceed with further registration.
+  - Click on the link in the email and proceed with further registration.
 
   - Now you have FEIDE **guest** account.
 
@@ -29,7 +29,7 @@ Once you created a FEIDE account (or if you already have one):
 
   - Click on the link in the email. You will be suggested to login in into dataporten.
  
-  - Ligin with your FEID
+  - Login using your FEIDE account 
 
   .. note::
 
