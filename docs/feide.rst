@@ -43,7 +43,7 @@ Once you created a FEIDE account (or if you already have one):
 Accessing Jupyterhub:
 ---------------------
 
-Once you've become a memeber of **escience2024** Feide group you can use Jupyterhub for eScience2024 cource at `<https://escience2024.craas1.sigma2.no>`_.
+Once you've become a memeber of **escience2024** Feide group you can use Jupyterhub for eScience2024 cource at `<https://escience2024-test.craas1.sigma2.no>`_.
 
   - Press ``Sing in with NIRD Apps Auth``.
 
