@@ -11,7 +11,9 @@ You can see them in the launcher when you create a new notebook or choose one in
 If you want to check which packages are included in the environment you can find the names of the environments available by doing: ``mamba env list``.
 To list packages and their versions within the environment use the following command: ``mamba list -n environment_name --export``.
 You can also pipe it to a file to view later or to create same environment somwhere else: ``mamba list -n environment name --export > environment.txt``
-To create an environment out of this file: ``mamba -n environment_name -f environment.txt``. 
+To create an environment out of this file: ``mamba -n environment_name -f environment.txt``. The kernels on jupyterhub are conda environments that are picked up automatically with ``nb_conda_kernels``. 
+If you want to use the kernel locally for your own work outside the course, you would need to register it with ``ipython kernel install`` on you machine, if ``nb_conda_kernels`` is not used by your jupyter application.
+In VSCode there are it's own extensions to deal with it.
 
   .. note::
      The exported environment is platform specific, f.e. you will see ``platform: linux-64``.
@@ -21,9 +23,10 @@ To create an environment out of this file: ``mamba -n environment_name -f enviro
 Available kernels
 -----------------
 
-- **Base**: contains basic packages (mostly not useful for data processing)
-- **Pangeo**: environment, built from `Pangeo nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/pangeo-notebook>`_
-- **Ml-notebook**: environment, built from `Pangeo ml-nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/ml-notebook>`_ with added packages:
+- **minimal**: bare python3.11 environment
+- **base**: contains basic packages (mostly not useful for data processing)
+- **pangeo-notebook**: environment, built from `Pangeo nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/pangeo-notebook>`_
+- **ml-notebook**: environment, built from `Pangeo ml-nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/ml-notebook>`_ with added packages:
 
   .. code-block::
 
