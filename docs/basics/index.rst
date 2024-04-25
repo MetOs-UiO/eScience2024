@@ -7,3 +7,4 @@ Jupyterhub basic usage
 
    start_stop
    lab
+   kernels
