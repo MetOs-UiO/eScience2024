@@ -8,4 +8,4 @@ sphinxemoji
 sphinx-autobuild
 watchfiles
 sphinx-toolbox
-
+sphinx-togglebutton

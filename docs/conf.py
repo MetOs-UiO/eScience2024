@@ -55,6 +55,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinxemoji.sphinxemoji",
     "sphinx_toolbox.collapse",
+    "sphinx_togglebutton",
     "sphinx_toolbox.installation",
 ]
 
