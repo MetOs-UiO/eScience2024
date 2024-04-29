@@ -1,4 +1,4 @@
-Using git on the jupyterhub
+Starting with git on the jupyterhub
 ===========================
 
 
@@ -43,7 +43,8 @@ Go into that folder in the file browser and then click on the git tab |gitico| i
    :width: 200
    :alt: Repo tab GUI
 
-You can hover over different tabs and buttons too see what they do. If you click on **History** tab, you will see the beautiful graph of the commit-history of the branc you are currently on.
+You can hover over different tabs and buttons too see what they do. If you click on **History** tab, you will see the beautiful graph of the commit-history of the branch you are currently on.
+You can clone multiple repositories and if you are in some repo folder within your file browser you can always click on the git icon to use version control for that specific repository.
 
 Using git CLI
 -------------
