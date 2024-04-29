@@ -35,7 +35,7 @@ Available kernels
 
   .. warning::
     
-    This is environment contains older versions of packages to allow the latest `pyaerocom` to work. If you don't require any specific packages from this environment, 
+    This is environment contains older versions of packages to allow the latest  ``pyaerocom`` to work. If you don't require any specific packages from this environment, 
     you should use the ``pangeo-notebook`` or ``ml-notebook`` kernel instead.
   
 ..
