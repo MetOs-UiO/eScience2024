@@ -124,6 +124,8 @@ html_context = {
 
 html_logo = "img/es-logo.png"
 
+html_favicon = "img/es-logo.ico"
+
 
 def setup(app):
     app.add_css_file("style.css")
