@@ -2,3 +2,5 @@
 _build/*
 .venv**
 jupyter_execute**
+activate/**
+deactivate/**

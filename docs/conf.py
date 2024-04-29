@@ -122,6 +122,8 @@ html_context = {
 #    'seaborn': ('https://seaborn.pydata.org/', None),
 # }
 
+html_logo = "img/es-logo.png"
+
 
 def setup(app):
     app.add_css_file("style.css")
