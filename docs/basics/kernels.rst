@@ -15,7 +15,7 @@ Available kernels
 
 - **minimal**: bare python3.11 environment
 - **base**: contains basic packages (mostly not useful for data processing)
-- **pangeo-notebook**: environment, built from `Pangeo nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/pangeo-notebook>`_
+- **pangeo-notebook**: environment, built from `Pangeo nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/pangeo-notebook>`_ extended with ``rioxarray``, ``pyrcel`` and ``geocat`` packages.
 - **ml-notebook**: environment, built from `Pangeo ml-nootbook v2024.04.05 <https://github.com/pangeo-data/pangeo-docker-images/tree/2024.04.05/ml-notebook>`_ with added packages:
 
   .. code-block::
@@ -27,17 +27,20 @@ Available kernels
     'tensorflow'
     'iris'
     'tqdm'
+    'cis'
+    'ESEM'
+    'pyaro'
 
-- **Python3.9**: This environment includes various packages.
+- **pyaero-notebook**: This `environment <https://raw.githubusercontent.com/metno/pyaerocom/v0.17.1/pyaerocom_env.yml>`_  includes various packages for ``pyaerocom``.
 
   .. warning::
     
-    This is a legacy environment and may not contain the latest versions of many packages. If you don't require any specific packages such as ``pyngl``, ``proplot``, or ``pycel``, 
+    This is environment contains older versions of packages to allow the latest  ``pyaerocom`` to work. If you don't require any specific packages from this environment, 
     you should use the ``pangeo-notebook`` or ``ml-notebook`` kernel instead.
   
+..
   .. code-block::
-
-    'python==3.9.19' 
+..
     'pycel'
     'ipykernel' 
     'scikit-learn'
@@ -74,4 +77,4 @@ To create an environment out of this file: ``mamba -n environment_name -f enviro
   The exported environment may be platform specific, f.e. you will see ``platform: linux-64``.
   Recreating the environment on another platform might not work since some of the packages might not be available for your target platform.
   In that case, it's recommended to use containers to reproduce the environment. However it is possible to export platform independent environments by using the ``--no-builds``. 
-  Further more conda-lock can be used to create a lock file that solves the dependencies for different platforms and can then be used to recreate the environment on another platform.  
+  Furthermore, conda-lock can be used to create a lock file that solves the dependencies for different platforms and can then be used to recreate the environment on another platform.  
