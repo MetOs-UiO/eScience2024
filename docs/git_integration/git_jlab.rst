@@ -21,6 +21,8 @@ Using git GUI extension:
 
 .. |gitico| image:: img/git_ico.png
 
+.. |ppbuttons| image:: img/push-pull-gui.png
+
 We have added a GUI extension ti jupyterlab for easier work with git.
 You can see a git icon |gitico| on the left panel. To clone a repository, click on the icon and then on **Clone Reopsitory**. 
 You should see the following promt:
@@ -43,8 +45,11 @@ Go into that folder in the file browser and then click on the git tab |gitico| i
    :width: 200
    :alt: Repo tab GUI
 
-You can hover over different tabs and buttons too see what they do. If you click on **History** tab, you will see the beautiful graph of the commit-history of the branch you are currently on.
+You can hover over different tabs and buttons too see what they do.
+If you click on **History** tab, you will see the beautiful graph of the commit-history of the branch you are currently on.
 You can clone multiple repositories and if you are in some repo folder within your file browser you can always click on the git icon to use version control for that specific repository.
+
+Pulling and pushing and fetching are done using the cloud buttons |ppbuttons| at the top right of the panel.
 
 Using git CLI
 -------------
@@ -103,3 +108,5 @@ Once you've made commits, you want to push them to the remote repository:
   git push --set-upstream origin my-new-branch
   # after that you can just simply do:
   git push
+
+To pull changes from the remote to your local repo use ``git pull``. To get updated history (branches, tags etc) from the remote use ``git fetch -a``.
