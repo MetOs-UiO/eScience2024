@@ -1,5 +1,5 @@
 Starting with git on the jupyterhub
-===========================
+===================================
 
 
 Adding your git username and email
@@ -48,3 +48,58 @@ You can clone multiple repositories and if you are in some repo folder within yo
 
 Using git CLI
 -------------
+
+You can also use git within the command line.
+To do that, Open a terminal through the **Launcher**. That will open the terminal at your current directorly.
+To see the aboslute path of where are you at use ``pwd``. Now, we will clone a repository that we use for the course (assuming you made a fork of it).
+
+.. code-block:: bash
+
+  git clone <repository url> <folder>
+
+  cd <folder>
+
+If the ``folder`` is not provided, the repository will be cloned into a folder with the same name as a repository.
+Since we are using private repositories, you will get promted to authenticate. Use your github username and `token  <https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>`_.
+
+Once you are in the repo folder. You can create a new branch for a feature/piece of work you will be working on, so you can make a pull request to the upstream repo later.
+To see what branch are you on right now and any changes you have made use ``git status``.
+
+.. code-block:: bash
+
+  git switch -c my-new-branch
+
+  git status
+
+You will see that you just created a new branch and that you are up-to-date with it. Note, this branch is local and does not exist yet on github repo.
+
+Now, suppose you made some changes to a file ``file.txt``. You want to commit the changes and than push it to the remote (your repo on git hub). To commit your changes, you can add a single file, multiple files or all the changes.
+
+.. code-block:: bash
+
+  #this will stage a single file
+  git add file.txt
+  #this will stage multiple files
+  git add file1.txt file2.txt ...
+
+To commit the files you have staged:
+
+.. code-block:: bash
+
+  git commit -m "commit-message, changed file.txt"
+
+You can commit all the changes at once:
+
+.. code-block:: bash
+
+  git commit -a -m "changed bunch of stuff"
+
+Once you've made commits, you want to push them to the remote repository:
+
+.. code-block:: bash
+
+  #--set-upstream origin my-new-branch is only needed once
+  # for every newly created branch to push it along with commits.
+  git push --set-upstream origin my-new-branch
+  # after that you can just simply do:
+  git push
