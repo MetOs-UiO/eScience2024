@@ -9,4 +9,5 @@ eScience 2024 course
    data/index
    learning/index
    git_integration/index
+   contrib
    license
