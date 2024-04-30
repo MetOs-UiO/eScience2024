@@ -5,4 +5,5 @@ Using version control on Jupyterhub:
    :maxdepth: 1
 
    git_jlab
+   remotes
    github-work
