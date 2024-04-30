@@ -12,4 +12,5 @@ To make a fork, go to the repo page. There you will see a ``fork`` button |fbutt
    :width: 700
    :alt: Fork Creation page
 
-
+After you have forked the projects repo you should login to `Jupyterhub <https://escience2024-test.craas1.sigma2.no>`_. 
+There you would need to clone your fork and create your first branch you would be working on.
