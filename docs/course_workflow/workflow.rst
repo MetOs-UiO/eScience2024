@@ -22,6 +22,9 @@ Sharing your work within the group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Within your fork, you should put all your code in your ``Group#`` folder.
+
 When you need to share your work with the others within your group you need to make a :doc:`Pull Request <../git_integration/github-work>` to the `upstream repo <https://github.com/MetOs-UiO/eScience2024-projects>`_ ``main`` branch.
-After a Teaching assistant responsible for you group has merged your PR to ``upstream/main`` other members of your group can pull these changes into branches on their forks they are working on.
-In addition, you can now create new branches based on the updated ``upstream/main``.
+
+After a Teaching assistant responsible for you group has merged your PR to ``upstream/main`` other members of your group can pull these changes into branches on their forks to work on.
+
+In addition, you will most likely want to create new branches based on the updated ``upstream/main``. See :doc:`Setting up remotes <../git_integration/remotes>`.

@@ -6,3 +6,4 @@ Workflow for eScience2024 course
    :maxdepth: 2
 
    workflow
+   rules
