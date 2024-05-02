@@ -26,7 +26,7 @@ copyright = "2024, MetOs, UiO"
 author = "MetOs-UiO"
 github_user = "MetOs-UiO"
 github_repo_name = "eScience2024"  # auto-detected from dirname if blank
-github_version = "main"
+github_version = "master"
 conf_py_path = "/docs/"  # with leading and trailing slash
 
 # -- General configuration ---------------------------------------------------

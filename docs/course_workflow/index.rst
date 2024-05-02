@@ -7,3 +7,4 @@ Workflow for eScience2024 course
 
    workflow
    rules
+   data
