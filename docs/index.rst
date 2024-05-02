@@ -5,6 +5,7 @@ eScience 2024 course
    :maxdepth: 5
 
    feide
+   course_workflow/index
    basics/index
    data/index
    learning/index
