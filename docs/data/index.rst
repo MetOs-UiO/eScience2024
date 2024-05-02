@@ -6,4 +6,5 @@ Data
    :titlesonly:
    :glob:
 
+   local-data
    cmip_local.md
