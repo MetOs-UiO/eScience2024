@@ -96,7 +96,7 @@ html_theme = "sphinx_book_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["css"]
 
-
+#theme things
 html_context = {
     "display_github": True,
     "github_user": github_user,
@@ -106,7 +106,14 @@ html_context = {
     "github_version": github_version,
     "conf_py_path": conf_py_path,
 }
-
+html_theme_options = {
+    "repository_url": "https://github.com/MetOs-UiO/eScience2024",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_edit_page_button": True,
+    "path_to_docs": "docs",
+    "repository_branch":"master",
+}
 # Intersphinx mapping.  For example, with this you can use
 # :py:mod:`multiprocessing` to link straight to the Python docs of that module.
 # List all available references:
