@@ -12,6 +12,8 @@
 #
 import os
 import sys
+from urllib.request import urlopen
+from pathlib import Path
 
 # HTML context:
 from os.path import basename, dirname, realpath
@@ -113,6 +115,8 @@ html_theme_options = {
     "use_edit_page_button": True,
     "path_to_docs": "docs",
     "repository_branch":"master",
+    "show_navbar_depth":2,
+    "home_page_in_toc":True
 }
 # Intersphinx mapping.  For example, with this you can use
 # :py:mod:`multiprocessing` to link straight to the Python docs of that module.
@@ -134,5 +138,6 @@ html_logo = "img/es-logo.png"
 html_favicon = "img/es-logo.ico"
 
 
-def setup(app):
-    app.add_css_file("style.css")
+
+#def setup(app):
+#    app.add_css_file("style.css")
