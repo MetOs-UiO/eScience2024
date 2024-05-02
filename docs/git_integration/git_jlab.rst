@@ -23,19 +23,19 @@ Using git GUI extension:
 
 .. |ppbuttons| image:: img/push-pull-gui.png
 
-We have added a GUI extension ti jupyterlab for easier work with git.
+Jupyterlab includes a GUI to make it easier to use git.
 You can see a git icon |gitico| on the left panel. To clone a repository, click on the icon and then on **Clone Reopsitory**. 
-You should see the following promt:
+You should see the following prompt:
 
 .. image:: img/clone-repo.png
    :width: 800
    :alt: Cloning repo GUI
 
-Chek both boxes and press **Clone**. You will get the following promt:
+Check both boxes and press **Clone**. You will get the following prompt:
 
 .. image:: img/gui-credentials.png
    :width: 300
-   :alt: Credentials promt GUI
+   :alt: Credentials prompt GUI
 
 If you do not know what a personal access token is follow `official github instructions <https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>`_ to create one. Usually, the tokens start with ``ghp_***``. Treat this token as a password. 
 Once you've logged in you will see in the file browser that a folder was created with the same name as the repo you have cloned.
@@ -55,8 +55,8 @@ Using git CLI
 -------------
 
 You can also use git within the command line.
-To do that, Open a terminal through the **Launcher**. That will open the terminal at your current directorly.
-To see the aboslute path of where are you at use ``pwd``. Now, we will clone a repository that we use for the course (assuming you made a fork of it).
+To do that, Open a terminal through the **Launcher**. That will open the terminal at your current directory.
+To see the absolute path of where are you at use ``pwd``. Now, we will clone a repository that we use for the course (assuming you made a fork of it).
 
 .. code-block:: bash
 
@@ -65,7 +65,7 @@ To see the aboslute path of where are you at use ``pwd``. Now, we will clone a r
   cd <folder>
 
 If the ``folder`` is not provided, the repository will be cloned into a folder with the same name as a repository.
-Since we are using private repositories, you will get promted to authenticate. Use your github username and `token  <https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>`_.
+Since we are using private repositories, you will get promoted to authenticate. Use your github username and `token  <https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>`_.
 
 Once you are in the repo folder. You can create a new branch for a feature/piece of work you will be working on, so you can make a pull request to the upstream repo later.
 To see what branch are you on right now and any changes you have made use ``git status``.
