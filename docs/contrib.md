@@ -26,9 +26,10 @@ Using venv or conda is highly recommended. Also, when you are pulling from `mast
 
 The static webpage is hosted on Github and automatically built by pushing changes to the `master` branch. The built webpage is displayed when selecting the `gh-pages` branch. This process is automatic. A guide to the principles can be found [here](https://pythonrepo.com/repo/executablebooks-sphinx-autobuild-python-documentation). 
 
-### If you have any questions, look in the Issues (including closed), if you don't find an answer - create a new one.
+ If you have any questions, look in the Issues (including closed), if you don't find an answer - create a new one. 
 
-- [Credit and license](https://metos-uio.github.io/sphinx-docs-example/license/)
+> **NOTE** If workflow above is too hard for you, there is a Github button in the top-right corner.
+
 
 
 ## Reviewing PRs

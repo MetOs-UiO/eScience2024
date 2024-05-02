@@ -9,4 +9,4 @@ Basic Rules for the course
   #. Do not store data in that folder unless it is \< 10 Mb. See :doc:`Sharing Data <./data>`.
   #. Do not download large number of files/large datasets into your home directory. 
   #. Do not try to make files in the read-only folders (you will get errors on save). Mind where your File browser is when making new notebook/starting new Launcher.
-  #. Make issues in this repo,
+  #. Make issues in this repo, See :doc:`Contribute to this page <../contrib>`.
