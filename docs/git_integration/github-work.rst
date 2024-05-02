@@ -21,12 +21,11 @@ There, you will see opened and closed issues, search through them, sort etc. To 
    :width: 800
    :alt: New Issue
 
-GitHub uses MarkDown with some extra features for formating comments and messages ont GitHub web-pages.
+GitHub uses MarkDown with some extra features for formatting comments and messages ont GitHub web-pages.
 You can read about the basics of formatting on the `github documentation <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>`_.
 
 Pull requests
 -------------
-
 
 When you have developed some code and want other people to use it. For that, you will need to create a Pull Request.
 There is a Pull Requests tab near the Issues tab on the GitHub page of your repository. If you click on it, you will get similar page as the one for Issues:
@@ -52,6 +51,6 @@ When you click on the ``New Pull Request`` you will see a promt to choose which 
 
 
 After you have chosen correct branches, you will see the comparison between them if you scroll down.
-To create a Pull Request click on **Create pull request**. Now you will se a page simmilar to the one you get when creating a new issue.
+To create a Pull Request click on **Create pull request**. Now you will se a page similar to the one you get when creating a new issue.
 Give your PR a meaningful title and description and check ``Allow edits by maintainers`` if you want people responsible for the repo your are pulling into to have access to your branch associated with the PR. 
 You can also request specific maintainers/users to review you PR. After you are done, press **Create pull request** again. 

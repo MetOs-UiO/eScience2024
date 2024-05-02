@@ -3,7 +3,7 @@ Setting up remotes
 
 
 Since we are working with two repositories: your fork and the repository you forked from, you might want to set up your local repo to see them both.
-In order to do that you would have to use terminal even if you use GUI for commiting/pushing.
+In order to do that you would have to use terminal even if you use GUI for committing/pushing.
 
 In git, remotes are repositories somewhere on the server (gitlab/github) that are not present locally on your machine.
 When you clone a repository and create a branch you generally want your branch to track some other branch on one of the remotes (usually with the same name).
