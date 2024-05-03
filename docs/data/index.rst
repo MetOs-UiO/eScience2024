@@ -6,4 +6,4 @@ Data
    :titlesonly:
    :glob:
 
-   cmip_local.md
+   Intake-data-acess.ipynb
