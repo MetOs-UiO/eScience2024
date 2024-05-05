@@ -11,3 +11,4 @@ it to the toctree.
    :glob:
 
    notebooks/*
+   us-links
