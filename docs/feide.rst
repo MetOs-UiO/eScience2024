@@ -43,7 +43,9 @@ Once you created a FEIDE account (or if you already have one):
 Accessing Jupyterhub:
 ---------------------
 
-Once you've become a memeber of **escience2024** Feide group you can use Jupyterhub for eScience2024 cource at `<https://escience2024-test.craas1.sigma2.no>`_.
+Once you've become a memeber of **escience2024** Feide group you can use Jupyterhub for eScience2024 cource at `<https://escience2024.craas1.sigma2.no>`_.
+
+
 
   - Press ``Sing in with NIRD Apps Auth``.
 
@@ -56,4 +58,8 @@ Once you've become a memeber of **escience2024** Feide group you can use Jupyter
       - Choose ``Feide guest users``, you would be promted to the OpenIdP login page.
 
 
+.. warning:: **Test server access**
+
+  Though `test sever <https://escience2024-test.craas1.sigma2.no>`_ is still reachable but will be shutdown soon.
+  So if you have anything there, move it to escience2024 server. If you  need help ask **@mvdeoblskiy**.
 
