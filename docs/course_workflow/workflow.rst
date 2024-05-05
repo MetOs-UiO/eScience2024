@@ -39,6 +39,12 @@ From `GitHub documentation <https://docs.github.com/en/enterprise-server@3.9/aut
 After you have forked the projects repo you should login to `Jupyterhub <https://escience2024.craas1.sigma2.no>`_. 
 There, you would need to clone your fork and create your first branch you would be working on. See :doc:`Starting with git on the jupyterhub <../git_integration/git_jlab>`.
 
+.. attention:: 
+  :class: toggle
+
+  If you have already accessed `test sever <https://escience2024-test.craas1.sigma2.no>`_, you should move to `<https://escience2024.craas1.sigma2.no>`_. 
+  Test server is only there for testing and will get shutdown.
+
 - Open terminal through Launcher.
 - Type this commands filling in your **github** username and email (without ``<>``):
 
