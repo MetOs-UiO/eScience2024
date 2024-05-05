@@ -36,7 +36,7 @@ From `GitHub documentation <https://docs.github.com/en/enterprise-server@3.9/aut
 3. Setup git and clone on jupyterhub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After you have forked the projects repo you should login to `Jupyterhub <https://escience2024-test.craas1.sigma2.no>`_. 
+After you have forked the projects repo you should login to `Jupyterhub <https://escience2024.craas1.sigma2.no>`_. 
 There, you would need to clone your fork and create your first branch you would be working on. See :doc:`Starting with git on the jupyterhub <../git_integration/git_jlab>`.
 
 - Open terminal through Launcher.
