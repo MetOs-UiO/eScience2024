@@ -1,9 +1,9 @@
-Setting up
-==========
+Basic setup
+===========
 
 
-Forking projects repository
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Fork projects repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. |fbutton| image:: img/fork_button.png
 
@@ -15,11 +15,69 @@ To make a fork, go to the repo page. There you will see a ``fork`` button |fbutt
    :width: 700
    :alt: Fork Creation page
 
+2. Get GitGub Access token
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+From `GitHub documentation <https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>`_.
+
+- Go to Github.
+- Click on your your profile image in the top-right.
+- Click ``Settings``
+- Click ``Developer Settings``
+- Click ``Personel access tokens->Tokens (classic)``
+- Click ``Generate new token``
+- Click ``Generate new token (classic)``
+- Authenticate
+- Make a note
+- Click on ``repo``, ``user``
+- Click ``generate``
+- Save token somewhere, treat it as a password
+
+3. Setup git and clone on jupyterhub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 After you have forked the projects repo you should login to `Jupyterhub <https://escience2024-test.craas1.sigma2.no>`_. 
 There, you would need to clone your fork and create your first branch you would be working on. See :doc:`Starting with git on the jupyterhub <../git_integration/git_jlab>`.
 
-Sharing your work within the group
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Open terminal through Launcher.
+- Type this commands filling in your **github** username and email (without ``<>``):
+
+  .. code-block:: bash
+
+    git config --global user.name "<your_username>"
+    git config --global user.email "<your_email>"
+
+- Clone **your fork** of  projects repository:
+
+  .. code-block:: bash
+
+    git clone https://github.com/<your_username>/eScience2024-projects
+
+- Go into your clone:
+
+  .. code-block:: bash
+
+    cd eScience2024-projects
+
+- Add upstream repository (See :doc:`Setting up remotes <../git_integration/remotes>`):
+
+  .. code-block:: bash
+
+    git remote add upstream https://github.com/MetOs-UiO/eScience2024-projects
+    git fetch --all
+
+- Make your first branch with a sensible name (what are you going to work on):
+
+  .. code-block:: bash
+
+    git checkout upstream/master
+    git switch -c <sensible-branch-name>
+    git push <sensible-branch-name> origin/<sensible-branch-name>
+
+
+
+4. Sharing your work within the group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Within your fork, you should put all your code in your ``Group#`` folder.
 
