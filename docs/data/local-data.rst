@@ -22,6 +22,8 @@ Mounted data directories:
 
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group3/NYA_radiation/`` Longwave and shortwave radiation observational data from Ny-Ålesund, 2006-2024.
 
+- ``~/shared-craas1-ns9989k-geo4992/data/data_group6/``  Hysplit (2018-19), AMS, CCN and updraft data (cloud-radar derived) for Zappelin
+
 .. note::
 
   The absolute paths for ``~/shared-craas1-ns9989k**`` are actually ``/mnt/craas1-ns9989k**``. A lot of python packages do not accept symbolic links, so please, use ``/mnt/**``.
