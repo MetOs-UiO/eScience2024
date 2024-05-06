@@ -76,7 +76,7 @@ There, you would need to clone your fork and create your first branch you would 
 
   .. code-block:: bash
 
-    git checkout upstream/master
+    git checkout upstream/main
     git switch -c <sensible-branch-name>
     git push <sensible-branch-name> origin/<sensible-branch-name>
 
