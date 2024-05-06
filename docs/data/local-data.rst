@@ -18,6 +18,8 @@ Mounted data directories:
 
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group3/echam_salsa_zep/`` Model output from ECHAM-SALSA with nudged surface meteorology, collocated with Zeppelin observatory from 2011-2020. Aerosol, basic meteorology and radiation parameters.
 
+- ``~/shared-craas1-ns9989k-ns9600k/escience_course/`` Contains folders with the CloudSat Cloud Profiling Radar 2B-GEOPROF data and MERRA aerosol data from 2007-2010.
+
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group3/NYA_radiation/`` Longwave and shortwave radiation observational data from Ny-Ålesund, 2006-2024.
 
 .. note::
