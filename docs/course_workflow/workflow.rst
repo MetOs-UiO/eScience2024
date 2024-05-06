@@ -72,13 +72,13 @@ There, you would need to clone your fork and create your first branch you would 
     git remote add upstream https://github.com/MetOs-UiO/eScience2024-projects
     git fetch --all
 
-- Make your first branch with a sensible name (what are you going to work on):
+- Make your first branch with a sensible name (what are you going to work on). Below you first checkout the current state of the upstream (the main repo, not your fork), and then add a branch (which will then be up to date with the main branch on the main repo) and switch to it, and finally you push your new local branch to the remote origin (which is your fork).
 
   .. code-block:: bash
 
     git checkout upstream/master
     git switch -c <sensible-branch-name>
-    git push <sensible-branch-name> origin/<sensible-branch-name>
+    git push origin <sensible-branch-name>
 
 
 
