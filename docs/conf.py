@@ -52,7 +52,6 @@ extensions = [
     "sphinx_design",
     "sphinx_tabs.tabs",
     "sphinx.ext.autodoc",
-    "sphinx.ext.autosectionlabel",
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
     "sphinxemoji.sphinxemoji",
@@ -137,7 +136,7 @@ html_logo = "img/es-logo.png"
 
 html_favicon = "img/es-logo.ico"
 
-
+suppress_warnings = ["myst.header","image.not_readable"]
 
 #def setup(app):
 #    app.add_css_file("style.css")
