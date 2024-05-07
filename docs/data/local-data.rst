@@ -14,6 +14,10 @@ Mounted data directories:
 
 - ``~/shared-craas1-ns9989k-ns9600k/escience_course/`` Contains folders with the CloudSat Cloud Profiling Radar 2B-GEOPROF data and MERRA aerosol data from 2007-2010.
 
+- ``~/shared-craas1-ns9989k-geo4992/data/data_group1/``:
+
+  - ``./data_group1/deposited2022/modis_cdnc_sampling_gridded/`` MODIS based dataset for cloud droplet number concentration from Gryspeerdt et al. (2022, https://amt.copernicus.org/articles/15/3875/2022/)
+
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group3/**``:
 
   - ``./NYA_radiation/`` Longwave and shortwave radiation observational data from Ny-Ålesund, 2006-2024.
@@ -34,9 +38,6 @@ Mounted data directories:
   - ``./3D_CloudFraction330m_200701-201512_night_CFMIP2_sat_3.1.2.nc`` GOCCP Cloud fraction
   - ``./3D_CloudFraction_Phase330m_200701-201512_night_CFMIP2.5_sat_2.9.nc`` GOCCP Cloud fraction by phase
   - ``./CERES_EBAF-TOA_Ed4.1_Subset_200701-201512_2.5x2.5.nc`` CERES EBAF
-
-- ``~/shared-craas1-ns9989k-geo4992/data/data_group1/``:
-  - ``./data_group1/deposited2022/modis_cdnc_sampling_gridded/`` MODIS based dataset for cloud droplet number concentration from Gryspeerdt et al. (2022, https://amt.copernicus.org/articles/15/3875/2022/)
 
 
 .. note::
