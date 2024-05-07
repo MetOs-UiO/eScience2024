@@ -26,13 +26,18 @@ Mounted data directories:
 
 - ``~/scraas1-ns9989k-geo4992/data/data_group6/`` Hysplit(2018-2019), AMS, CCN and cloud radar derived cloud base Updraft data (warm non-precipitating clouds) from Zeppelin (Ny-Ålesund).
 
-- ``~/shared-craas1-ns9989k-geo4992/data/data_group6/``  Hysplit (2018-19), AMS, CCN and updraft data (cloud-radar derived) for Zappelin
+- ``~/shared-craas1-ns9989k-geo4992/data/data_group6/``  Hysplit (2018-19), AMS, CCN and updraft data (cloud-radar derived) for Zappelin.
+
 
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group7/``:
 
   - ``./3D_CloudFraction330m_200701-201512_night_CFMIP2_sat_3.1.2.nc`` GOCCP Cloud fraction
   - ``./3D_CloudFraction_Phase330m_200701-201512_night_CFMIP2.5_sat_2.9.nc`` GOCCP Cloud fraction by phase
   - ``./CERES_EBAF-TOA_Ed4.1_Subset_200701-201512_2.5x2.5.nc`` CERES EBAF
+
+- ``~/shared-craas1-ns9989k-geo4992/data/data_group1/``:
+  - ``./data_group1/deposited2022/modis_cdnc_sampling_gridded/`` MODIS based dataset for cloud droplet number concentration from Gryspeerdt et al. (2022, https://amt.copernicus.org/articles/15/3875/2022/)
+
 
 .. note::
 
