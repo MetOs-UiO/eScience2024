@@ -10,7 +10,7 @@ Mounted data directories:
 
 - ``~/shared-craas1-nn9989k-ns9560k/CAM6_CESM_PPE`` CAM6 output for Perturbed Parameter Experiment
 
-- ``~/shared-craas1-nn9989k-ns9560k/``
+- ``~/shared-craas1-nn9989k-ns9560k/`` NorESM KeyClim and ForCes data.
 
 - ``~/shared-craas1-geo4992/data/data_group4/`` Fire emissions from CAMS and MERRA2 + aerosol data from `<https://doi.org/10.5194/acp-24-2059-2024>`_ and `<https://doi.org/10.17043/zeppelin-ebc-2015-2019-1>`_.
 
