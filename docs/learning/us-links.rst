@@ -9,7 +9,11 @@ Some useful links
 - `Intake-ESM <https://intake-esm.readthedocs.io/en/stable/>`_
 - `ACTRIS and EBAS example notebooks <https://github.com/ACTRIS-Data-Centre/actris-jupyter-hub>`_
 
-
+CMIP6 links:
+~~~~~~~~~~~~
+- `CMOR variable tables <https://github.com/PCMDI/cmip6-cmor-tables/blob/main/Tables/CMIP6_fx.json>`_ or `web-form <https://clipc-services.ceda.ac.uk/dreq/mipVars.html>`_
+- `Variable tables. <https://airtable.com/appYNLuWqAgzLbhSq/shrKcLEdssxb8Yvcp/tblL7dJkC3vl5zQLb>`_.
+- `CMIP6 infrastructure description <https://wcrp-cmip.github.io/WGCM_Infrastructure_Panel/Papers/CMIP6_global_attributes_filenames_CVs_v6.2.7.pdf>`_.
 
 
 Documentation links
