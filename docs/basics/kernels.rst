@@ -30,14 +30,12 @@ Available kernels
     'cis'
     'ESEM'
     'pyaro'
+    'pyaerocom'
 
-- **pyaero-notebook**: This `environment <https://raw.githubusercontent.com/metno/pyaerocom/v0.17.1/pyaerocom_env.yml>`_  includes various packages for ``pyaerocom``.
-
-  .. warning::
+  .. attention::
     
-    This is environment contains older versions of packages to allow the latest  ``pyaerocom`` to work. If you don't require any specific packages from this environment, 
-    you should use the ``pangeo-notebook`` or ``ml-notebook`` kernel instead.
-  
+    ``pyaero-notebook`` has been removed and latest ``pyaerocom`` added to the ``ml-notebook``.
+
 ..
   .. code-block::
 ..

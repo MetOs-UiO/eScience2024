@@ -36,3 +36,7 @@ If you are annoyed by ``~~~~~~`` wigly lines, you can disable some of them by ig
 You can check the error codes `here <https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes>`_.
 
 To do that. You can go to the file ``~/.config/pycodestyle`` and add the error codes you do not like to the ignore list.
+
+.. note::
+
+  Vim key bindings extensions has been added to jupyter lab. It is disabled by default but can be turned on in the **Notebook Vim** in the Settings Editor.
