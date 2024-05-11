@@ -6,6 +6,11 @@ Direct local data access
 
 Mounted data directories:
 
+.. attention::
+
+  The absolute paths for ``~/shared-craas1-ns9989k**`` are actually ``/mnt/craas1-ns9989k**``. A lot of python packages do not accept symbolic links, so please, use ``/mnt/**``.
+
+
 - ``~/shared-craas1-nn9989k-cmip6/`` subset of CMIP6 data from ESGF.
 
 - ``~/shared-craas1-nn9989k-ns9560k/CAM6_CESM_PPE`` CAM6 output for Perturbed Parameter Experiment
@@ -13,6 +18,8 @@ Mounted data directories:
 - ``~/shared-craas1-nn9989k-ns9560k/`` NorESM KeyClim and ForCes data.
 
 - ``~/shared-craas1-ns9989k-ns9600k/escience_course/`` Contains folders with the CloudSat Cloud Profiling Radar 2B-GEOPROF data and MERRA aerosol data from 2007-2010.
+
+- ``~/shared-craas1-ns9989k-geo4992/catalogs`` - various intake catalogs for local + pangeo data access.
 
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group1/``:
 
@@ -29,6 +36,7 @@ Mounted data directories:
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group4/`` Fire emissions from CAMS and MERRA2 + aerosol data from `<https://doi.org/10.5194/acp-24-2059-2024>`_ and `<https://doi.org/10.17043/zeppelin-ebc-2015-2019-1>`_.
 
 - ``~/scraas1-ns9989k-geo4992/data/data_group6/`` Hysplit(2018-2019), AMS, CCN and cloud radar derived cloud base Updraft data (warm non-precipitating clouds) from Zeppelin (Ny-Ålesund).
+  - ``./CMIP6`` additional variables for historical, abrupt-4xCO2, 1pctCO2, ssp119, ssp585 with IPSL and HadGEM3.
 
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group6/``  Hysplit (2018-19), AMS, CCN and updraft data (cloud-radar derived) for Zappelin.
 
@@ -38,8 +46,5 @@ Mounted data directories:
   - ``./3D_CloudFraction330m_200701-201512_night_CFMIP2_sat_3.1.2.nc`` GOCCP Cloud fraction
   - ``./3D_CloudFraction_Phase330m_200701-201512_night_CFMIP2.5_sat_2.9.nc`` GOCCP Cloud fraction by phase
   - ``./CERES_EBAF-TOA_Ed4.1_Subset_200701-201512_2.5x2.5.nc`` CERES EBAF
-
-
-.. note::
-
-  The absolute paths for ``~/shared-craas1-ns9989k**`` are actually ``/mnt/craas1-ns9989k**``. A lot of python packages do not accept symbolic links, so please, use ``/mnt/**``.
+  - ``./amip`` - selected CMIP6 model output from amip experiment
+  - ``./amip+4k`` - selected CMIP6 model output from amip+4k experiment.
