@@ -21,6 +21,14 @@ Mounted data directories:
 
 - ``~/shared-craas1-ns9989k-geo4992/catalogs`` - various intake catalogs for local + pangeo data access.
 
+  - ``./cmip6.json`` local CMIP6 data corresponding to ``~/shared-craas1-nn9989k-cmip6/``
+
+  - ``./merged-cmip6.json`` same as above but with pangeo catalog merged
+
+  - ``./cesm-ppe-pi-mon.json`` cesm ppe pre-industrial monthly variables
+
+  - ``./cesm-ppe.json`` cesm present day variables.
+
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group1/``:
 
   - ``./data_group1/deposited2022/modis_cdnc_sampling_gridded/`` MODIS based dataset for cloud droplet number concentration from Gryspeerdt et al. (2022, https://amt.copernicus.org/articles/15/3875/2022/)
