@@ -41,6 +41,8 @@ Mounted data directories:
 
   - ``./echam_salsa_zep/`` Model output from ECHAM-SALSA with nudged surface meteorology, collocated with Zeppelin observatory from 2011-2020. Aerosol, basic meteorology and radiation parameters.
 
+  - ``./ec-earth/`` variables from ec-earth project.
+
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group4/`` Fire emissions from CAMS and MERRA2 + aerosol data from `<https://doi.org/10.5194/acp-24-2059-2024>`_ and `<https://doi.org/10.17043/zeppelin-ebc-2015-2019-1>`_.
 
 - ``~/scraas1-ns9989k-geo4992/data/data_group6/`` Hysplit(2018-2019), AMS, CCN and cloud radar derived cloud base Updraft data (warm non-precipitating clouds) from Zeppelin (Ny-Ålesund).
