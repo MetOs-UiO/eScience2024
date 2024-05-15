@@ -21,6 +21,14 @@ Mounted data directories:
 
 - ``~/shared-craas1-ns9989k-geo4992/catalogs`` - various intake catalogs for local + pangeo data access.
 
+  - ``./cmip6.json`` local CMIP6 data corresponding to ``~/shared-craas1-nn9989k-cmip6/``
+
+  - ``./merged-cmip6.json`` same as above but with pangeo catalog merged
+
+  - ``./cesm-ppe-pi-mon.json`` cesm ppe pre-industrial monthly variables
+
+  - ``./cesm-ppe.json`` cesm present day variables.
+
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group1/``:
 
   - ``./data_group1/deposited2022/modis_cdnc_sampling_gridded/`` MODIS based dataset for cloud droplet number concentration from Gryspeerdt et al. (2022, https://amt.copernicus.org/articles/15/3875/2022/)
@@ -32,6 +40,8 @@ Mounted data directories:
   - ``./DMPS_ZEP/`` Aerosol size distribution observational data from Zeppelin Observatory, 2000-2020.
 
   - ``./echam_salsa_zep/`` Model output from ECHAM-SALSA with nudged surface meteorology, collocated with Zeppelin observatory from 2011-2020. Aerosol, basic meteorology and radiation parameters.
+
+  - ``./ec-earth/`` variables from ec-earth project.
 
 - ``~/shared-craas1-ns9989k-geo4992/data/data_group4/`` Fire emissions from CAMS and MERRA2 + aerosol data from `<https://doi.org/10.5194/acp-24-2059-2024>`_ and `<https://doi.org/10.17043/zeppelin-ebc-2015-2019-1>`_.
 
